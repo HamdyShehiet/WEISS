@@ -60,7 +60,7 @@ img{
     max-width: 100%;
 }
 /* Utility Classes */
-/* h1.title{
+h1.title{
     font-size: var(--fs-32px);
     font-weight: var(--fw-700);
     color:var(--Dark-blue);
@@ -104,4 +104,4 @@ p.description{
 }
 .grid{
     display: grid;
-} */
+}
