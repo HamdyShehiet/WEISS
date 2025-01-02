@@ -82,8 +82,9 @@ p.description{
 }
 .btn{
     display: inline-flex;
+    align-items: center;
     gap: 16px;
-    padding: 0 16px;
+    padding: 8px 22px;
     font-size: var(--fs-16px);
     font-weight: var(--fw-700);
     background-color: var(--orange);
@@ -91,6 +92,7 @@ p.description{
 }
 .link{
     display: inline-flex;
+    align-items: center;
     gap: 16px;
     font-size: var(--fs-16px);
     font-weight: var(--fw-500);
@@ -105,3 +107,4 @@ p.description{
 .grid{
     display: grid;
 }
+/* Component */
