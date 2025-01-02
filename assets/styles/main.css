@@ -19,7 +19,7 @@
     --fw-400:400;
     --fw-500:500;
     --fw-700:700;
-    --section-padding: 60px;
+    --section-padding: 50px;
 }
 html{
     scroll-behavior: smooth;
@@ -69,7 +69,7 @@ p.description{
     display: inline-flex;
     align-items: center;
     gap: 16px;
-    padding: 8px 22px;
+    padding: 8px 20px;
     font-size: var(--fs-16px);
     font-weight: var(--fw-700);
     background-color: var(--orange);
@@ -122,7 +122,6 @@ header .container nav ul li a{
     header .container nav .contact{
         display: none;
     }
-
 }
 @media (max-width:991px) {
     header .container nav input{
