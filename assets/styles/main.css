@@ -206,3 +206,18 @@ section{
         margin-bottom: 150px;
     }
 }
+.our-services .container .services-list{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.our-services .container .services-list .service{
+    max-width: 312px;
+    width: 100%;
+}
+.our-services .container .services-list .service >img{
+    margin-bottom: 20px;
+}
+.our-services .container .services-list .service p{
+    min-height: 160px;
+}
