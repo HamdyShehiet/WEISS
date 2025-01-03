@@ -64,7 +64,7 @@ p.description{
     margin: 20px 0;
     font-size: var(--fs-16px);
     font-weight: var(--fw-500);
-    line-height: 1.7;
+    line-height: 2;
     color: var(--light-blue);
 }
 .btn{
@@ -94,6 +94,9 @@ p.description{
 }
 .grid{
     display: grid;
+}
+.text-center{
+    text-align: center;
 }
 /* Component */
 header{
