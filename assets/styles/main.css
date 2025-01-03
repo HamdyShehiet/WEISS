@@ -46,7 +46,7 @@ img{
 }
 /* Utility Classes */
 h1.title{
-    font-size: var(--fs-30px);
+    font-size: clamp(var(--fs-24px) - 2px,5vw,var(--fs-30px));
     font-weight: var(--fw-700);
     color:var(--Dark-blue);
 }
@@ -171,11 +171,12 @@ section{
 }
 .hero .container{
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     gap: 100px;
 }
 .hero .container article >span{
+    display: block;
+    margin-bottom: 15px;
     font-size: var(--fs-14px);
     font-weight: var(--fw-700);
     color: var(--light-blue);
@@ -196,5 +197,7 @@ section{
     .hero .container .col{
         flex-basis: 45%;
     }
-    
+    .hero .container article {
+        margin-top: 100px;
+    }
 }
