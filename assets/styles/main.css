@@ -224,7 +224,7 @@ section{
     box-shadow: 0 4px 4px 0 rgb(0 0 0 / .3);
 }
 .our-services .container .services-list .service p{
-    min-height: 160px;
+    min-height: 140px;
 }
 .our-company-history .container .details{
     margin-bottom: 30px;
@@ -270,4 +270,26 @@ section{
         right: 0;
         top: 100px;
     }
+}
+.our-latest-posts .container .iteresting-facts{
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.our-latest-posts .container .iteresting-facts .info{
+    max-width: 600px;
+}
+.our-latest-posts .container .posts .latest-posts-list{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+.our-latest-posts .container .posts .latest-posts-list .post{
+    max-width: 360px;
+    width: 100%;
+}
+.our-latest-posts .container .posts .latest-posts-list .post p{
+    min-height: 110px;
 }
