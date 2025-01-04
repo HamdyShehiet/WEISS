@@ -70,6 +70,13 @@ p.description{
     line-height: 1.6;
     color: var(--light-blue);
 }
+span.title{
+    display: block;
+    margin-bottom: 20px;
+    font-size: var(--fs-14px);
+    font-weight: var(--fw-700);
+    color: var(--light-blue);
+}
 .btn{
     display: inline-flex;
     align-items: center;
@@ -178,14 +185,6 @@ section{
     justify-content: center;
     gap: 100px;
     min-height: calc(100vh - 100px);
-}
-.hero .container article >span,
-.our-company-history .container .details>span{
-    display: block;
-    margin-bottom: 20px;
-    font-size: var(--fs-14px);
-    font-weight: var(--fw-700);
-    color: var(--light-blue);
 }
 .hero .container .image{
     position: relative;
