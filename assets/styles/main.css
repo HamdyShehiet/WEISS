@@ -192,7 +192,7 @@ section{
     margin-bottom: 15px;
 }
 .hero .container .image img:first-child{
-    box-shadow: 0 4px 4px 0 rgb(0 0 0 / .45);
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / .3);
 }
 .hero .container .image img:last-child{
     position: absolute;
@@ -222,6 +222,7 @@ section{
 }
 .our-services .container .services-list .service >img{
     margin-bottom: 20px;
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / .3);
 }
 .our-services .container .services-list .service p{
     min-height: 160px;
@@ -250,6 +251,9 @@ section{
 }
 .our-company-history .container .image-box{
     text-align: center;
+}
+.our-company-history .container .image-box img{
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / .3);
 }
 @media (min-width:992px) {
     .our-company-history .container {
