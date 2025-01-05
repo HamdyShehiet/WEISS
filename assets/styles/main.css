@@ -293,3 +293,17 @@ section{
 .our-latest-posts .container .posts .latest-posts-list .post p{
     min-height: 110px;
 }
+.apply-to-us .container{
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.apply-to-us .container .image-box{
+    text-align: center;
+}
+@media (min-width:992px) {
+    .apply-to-us .container {
+        grid-template-columns: min(350px,100%) auto;
+        justify-content: space-between;
+    }
+}
