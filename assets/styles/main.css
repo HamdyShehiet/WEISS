@@ -84,6 +84,11 @@ span.title{
     font-weight: var(--fw-700);
     background-color: var(--orange);
     color: var(--clr-white);
+    transition: all 500ms ease;
+}
+.btn:hover{
+    transform: scale(1.05);
+    background-color: var(--Dark-blue);
 }
 .link{
     display: inline-flex;
@@ -141,7 +146,7 @@ header .container nav ul li a{
     }
     header .container nav ul{
         position: fixed;
-        top: 75px;
+        top: 100px;
         right: -200%;
         max-width: 240px;
         width: 60%;
