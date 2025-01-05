@@ -52,7 +52,6 @@ h1.title{
     color:var(--Dark-blue);
 }
 h2.title{
-    /* font-size: var(--fs-24px); */
     font-size: clamp(var(--fs-20px),8vw,var(--fs-24px));
     font-weight: var(--fw-700);
     color:var(--Dark-blue);
@@ -64,7 +63,6 @@ h3.title{
 }
 p.description{
     margin: 20px 0;
-    /* font-size: var(--fs-16px); */
     font-size: clamp(var(--fs-14px),8vw,var(--fs-16px));
     font-weight: var(--fw-500);
     line-height: 1.6;
@@ -72,7 +70,7 @@ p.description{
 }
 span.title{
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     font-size: var(--fs-14px);
     font-weight: var(--fw-700);
     color: var(--light-blue);
@@ -275,7 +273,7 @@ section{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .our-latest-posts .container .iteresting-facts .info{
     max-width: 600px;
@@ -284,7 +282,6 @@ section{
     flex-wrap: wrap;
     justify-content: center;
     gap:50px 40px;
-    margin-top: 40px;
 }
 .our-latest-posts .container .posts .latest-posts-list .post{
     max-width: 360px;
@@ -300,6 +297,9 @@ section{
 }
 .apply-to-us .container .image-box{
     text-align: center;
+}
+.apply-to-us .container .image-box img{
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / .3);
 }
 @media (min-width:992px) {
     .apply-to-us .container {
