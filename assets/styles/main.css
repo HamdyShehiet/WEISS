@@ -283,7 +283,7 @@ section{
 .our-latest-posts .container .posts .latest-posts-list{
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px;
+    gap:50px 40px;
     margin-top: 40px;
 }
 .our-latest-posts .container .posts .latest-posts-list .post{
